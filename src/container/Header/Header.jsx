@@ -45,8 +45,8 @@ const Header = () => {
                 <div className='w-full absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 px-8 z-10'>
                     <h1 className='text-6xl text-center font-black'>The Sleepiest App</h1>
                     <p className='mt-8 w-1/2 text-2xl text-center mx-auto'>Can't sleep? Try bedtime stories, sleep sounds & meditations to help you fall asleep fast.</p>
-                    <div class="flex w-48 h-14 bg-black text-white rounded-lg items-center justify-center mt-8 mx-auto">
-                        <div class="mr-3">
+                    <div className="flex w-48 h-14 bg-black text-white rounded-lg items-center justify-center mt-8 mx-auto">
+                        <div className="mr-3">
                             <svg viewBox="30 336.7 120.9 129.2" width="30">
                                 <path fill="#FFD400" d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z" />
                                 <path fill="#FF3333" d="M99.1,401.1l-64.2,64.7c1.5,0.2,3.2-0.2,5.2-1.3  c4.2-2.3,48.8-26.7,79.1-43.3L99.1,401.1L99.1,401.1z" />
@@ -55,8 +55,8 @@ const Header = () => {
                             </svg>
                         </div>
                         <div>
-                            <div class="text-xs">GET IT ON</div>
-                            <div class="text-xl font-semibold font-sans -mt-1">Google Play</div>
+                            <div className="text-xs">GET IT ON</div>
+                            <div className="text-xl font-semibold font-sans -mt-1">Google Play</div>
                         </div>
                     </div>
                 </div>
