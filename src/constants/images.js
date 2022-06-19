@@ -35,14 +35,14 @@ import nb from '../assets/images/nb.png';
 import skype from '../assets/images/skype.png';
 import spotify from '../assets/images/spotify.png';
 
-import diaryRecent from '../assets/images/diary_recent.jpg';
-import diaryCalendar from '../assets/images/diary_calendar.jpg';
-import diaryDarkMode from '../assets/images/diary_dark_mode.jpg';
-import diaryEditor from '../assets/images/diary_editor.jpg';
-import diaryEmoji from '../assets/images/diary_emoji.jpg';
-import diaryImageEditor from '../assets/images/diary_image_editor.jpg';
-import diaryList from '../assets/images/diary_list.jpg';
-import diaryView from '../assets/images/diary_view.jpg';
+import diaryRecent from '../assets/images/diary_recent.png';
+import diaryCalendar from '../assets/images/diary_calendar.png';
+import diaryDarkMode from '../assets/images/diary_dark_mode.png';
+import diaryEditor from '../assets/images/diary_editor.png';
+import diaryEmoji from '../assets/images/diary_emoji.png';
+import diaryImageEditor from '../assets/images/diary_image_editor.png';
+import diaryList from '../assets/images/diary_list.png';
+import diaryView from '../assets/images/diary_view.png';
 
 export default {
   email,
