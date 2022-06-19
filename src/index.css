@@ -22,3 +22,8 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'BrushScript';
+  src: url(./assets/fonts/BrushSci.ttf) format('truetype');
+}
