@@ -51,10 +51,10 @@ const Content = ({ title, description, image, flip = false, circles = null, btnC
                 >
 
                     {circles || <>
-                        <div className='circle-cmp app__flex h-16 w-16' key={`circle-flutter`}>
+                        <div className='circle-cmp app__flex h-16 w-16' key={`circle-${title}`}>
                             <img src={images.flutter} alt="circle_image" />
                         </div>
-                        <div className='circle-cmp app__flex bottom-0 right-0 absolute h-24 w-24' key={`circle-sass`}>
+                        <div className='circle-cmp app__flex bottom-0 right-0 absolute h-24 w-24' key={`circle-${title}-2`}>
                             <img src={images.sass} alt="circle_image" />
                         </div>
                     </>}

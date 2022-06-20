@@ -12,22 +12,38 @@ const Skill = () => {
 
     const skills = [
         {
-            name: "Sleep better, wake happier",
-            description: "Explore sleep sounds, stories and meditations, to help you sleep better and wake up happier.",
+            name: "Write better,\nexpress more",
+            description: "Explore rich features editor to help you write diaries with more fun. Write down your thought and moments to enjoy later",
             bgColor: "#edf2f8",
-            icon: images.react
+            icon:
+                (<span className='app__flex bg-gradient-to-l rounded-full p-2 h-24 w-24 text-transparent from-indigo-600 to-blue-600'>
+                    <span className="material-icons text-white text-4xl">
+                        history_edu
+                    </span>
+                </span>)
+
         },
         {
-            name: "Track your progress",
-            description: "Just 5 days of Sleepiest can help you sleep an average of 32 minutes longer each night.",
+            name: "Track your \nprogress",
+            description: "Track your diaries with a timeline. Keep track of your mood and events when express your feeling.",
             bgColor: "#edf2f8",
-            icon: images.figma
+            icon:
+                (<span className='app__flex bg-gradient-to-l rounded-full p-2 h-24 w-24 text-transparent to-indigo-700 from-blue-800'>
+                    <span className="material-icons text-white text-4xl">
+                        calendar_month
+                    </span>
+                </span>)
         },
         {
-            name: "Join over 2 million",
-            description: "Join over 2 million people around the world improving their health & happiness with Sleepiest.",
+            name: "Enjoying review \nyour moments",
+            description: "Multiple diary view mode and list view for you to review and enjoy reading your diaries.",
             bgColor: "#edf2f8",
-            icon: images.flutter
+            icon:
+                (<span className='app__flex bg-gradient-to-b rounded-full p-2 h-24 w-24 text-transparent from-violet-800 to-indigo-800'>
+                    <span className="material-icons text-white text-4xl">
+                        list_alt
+                    </span>
+                </span>)
         },
     ];
     return (
@@ -35,25 +51,26 @@ const Skill = () => {
             <h2 className='head-text'>Features</h2>
 
             <div className=''>
-                <motion.div className='flex'>
+                <motion.div className='flex items-start'>
                     {skills.map((skill) => (
                         <motion.div
                             whileInView={{ opacity: [0, 1] }}
                             transition={{ duration: 0.5 }}
-                            className="app__skills-item app__flex"
+                            className="app__skills-item app__flex w-1/3"
                             key={skill.name}>
-                            <div className='app__flex' style={{ backgroundColor: skill.bgColor }}>
-                                <img src={skill.icon} alt={skill.name} />
-                            </div>
-                            <p className='p-text mt-4 text-center text-3xl font-bold text-gray-800'>{skill.name}</p>
+                            {/* <div className='app__flex' style={{ backgroundColor: skill.bgColor }}> */}
+                            {/* <img src={skill.icon} alt={skill.name} /> */}
+                            {skill.icon}
+                            {/* </div> */}
+                            <p className='p-text mt-4 text-center text-3xl font-bold text-gray-800 whitespace-pre-line'>{skill.name}</p>
                             <p className='p-text mt-4 text-center px-8'>{skill.description}</p>
                         </motion.div>
                     ))}
                 </motion.div>
                 <div className="mx-auto flex w-48 h-14 text-sm font-black cursor-pointer bg-indigo-600 hover:bg-indigo-800 text-white rounded-lg items-center justify-center mt-16">
-                       Try For Free
-                    </div>
-             
+                    Try For Free
+                </div>
+
             </div>
         </>
     );

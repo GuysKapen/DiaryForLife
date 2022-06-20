@@ -23,6 +23,10 @@
   scroll-behavior: smooth;
 }
 
+.font-brush-script {
+  font-family: 'BrushScript';
+}
+
 @font-face {
   font-family: 'BrushScript';
   src: url(./assets/fonts/BrushSci.ttf) format('truetype');

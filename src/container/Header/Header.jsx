@@ -25,15 +25,15 @@ const Header = () => {
                         <span>👋</span>
                         <div className='ml-4'>
                             <p className='p-text'>Hello, I am</p>
-                            <h1 className='head-text'>Guys</h1>
+                            <h1 className='head-text'>Omori</h1>
                         </div>
                     </div>
                     <div className='tag-cmp'>
                         <p className='p-text'>
-                            <span>Web Developer</span>
+                            <span>The diary app</span>
                         </p>
                         <p className='p-text'>
-                            <span>Dev Ops</span>
+                            <span>to reserve your moments</span>
                         </p>
                     </div>
                 </div>
@@ -43,8 +43,8 @@ const Header = () => {
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className='app__header-img'>
                 <div className='w-full absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 px-8 z-10'>
-                    <h1 className='text-6xl text-center font-black'>The Sleepiest App</h1>
-                    <p className='mt-8 w-1/2 text-2xl text-center mx-auto'>Can't sleep? Try bedtime stories, sleep sounds & meditations to help you fall asleep fast.</p>
+                    <h1 className='text-6xl text-center font-black'>The Omori App</h1>
+                    <p className='mt-8 w-1/2 text-2xl text-center mx-auto'>Want to keep track your events. Try Omori to help you write for enjoying your moments</p>
                     <div className="flex w-48 h-14 bg-black text-white rounded-lg items-center justify-center mt-8 mx-auto">
                         <div className="mr-3">
                             <svg viewBox="30 336.7 120.9 129.2" width="30">
@@ -68,20 +68,6 @@ const Header = () => {
                     alt="profile_circle" />
 
             </motion.div>
-            {/* 
-            <motion.div
-                variants={scaleVariants}
-                whileInView={scaleVariants.whileInView}
-                className='app__header-circles'
-            >
-
-                {[images.flutter, images.redux, images.sass].map((circle, index) => (
-                    <div className='circle-cmp app__flex' key={`circle-${index}`}>
-                        <img src={circle} alt="circle_image" />
-                    </div>
-                ))}
-
-            </motion.div> */}
         </div>
     );
 }

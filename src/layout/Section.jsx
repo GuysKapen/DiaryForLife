@@ -5,7 +5,6 @@ const Section = (Element, idName, className) => {
     return class WithData extends Component {
 
         render() {
-            console.log('this.props', this.props);
             return (
                 <div id={idName} className={`app__container ${className}`}>
                     <SocialMedia />
