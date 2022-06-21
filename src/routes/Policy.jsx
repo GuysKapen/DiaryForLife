@@ -61,7 +61,6 @@ const categoriesInfos = [
 function Policy() {
   return (
     <div className="app">
-      <Navbar />
       <section className='pt-48 pb-16 px-64'>
         <h1 className='text-5xl font-black text-gray-800'>Privacy</h1>
         <div className="mt-8">

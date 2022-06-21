@@ -188,6 +188,11 @@
   }
 }
 
+#scroll-nav.show {
+  opacity: 1;
+  transform: translate(0);
+}
+
 #privacy-policy {
   color: rgb(75 85 99);
 

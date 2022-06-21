@@ -33,7 +33,7 @@ const Header = () => {
                             <span>The diary app</span>
                         </p>
                         <p className='p-text'>
-                            <span>to reserve your moments</span>
+                            <span>to keep track of your moments</span>
                         </p>
                     </div>
                 </div>
