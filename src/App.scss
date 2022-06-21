@@ -177,6 +177,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
   .app__navigation,
   .app__social {
     display: none;
@@ -184,5 +185,70 @@
 
   .copyright {
     padding: 2rem;
+  }
+}
+
+#privacy-policy {
+  color: rgb(75 85 99);
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 1rem 0;
+    color: rgb(31 41 55);
+    text-transform: capitalize;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(31 41 55);
+  }
+
+  p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+
+    span {
+      font-weight: bold;
+      padding-right: 0.25rem;
+      color: rgb(31 41 55);
+    }
+  }
+
+  .p-text-bold {
+    font-weight: bold;
+    color: rgb(31 41 55);
+  }
+
+  a {
+    display: block;
+    padding: 0.5rem 0;
+    color: rgb(79 70 229);
+    transition: all;
+
+    &:hover {
+      color: rgb(55 48 163);
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+
+    li {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 0.5rem;
+
+      span {
+        font-style: italic;
+        font-weight: bold;
+        color: rgb(31 41 55);
+      }
+    }
   }
 }

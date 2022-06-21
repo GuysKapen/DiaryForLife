@@ -58,10 +58,7 @@ const Skill = () => {
                             transition={{ duration: 0.5 }}
                             className="app__skills-item app__flex w-1/3"
                             key={skill.name}>
-                            {/* <div className='app__flex' style={{ backgroundColor: skill.bgColor }}> */}
-                            {/* <img src={skill.icon} alt={skill.name} /> */}
                             {skill.icon}
-                            {/* </div> */}
                             <p className='p-text mt-4 text-center text-3xl font-bold text-gray-800 whitespace-pre-line'>{skill.name}</p>
                             <p className='p-text mt-4 text-center px-8'>{skill.description}</p>
                         </motion.div>
