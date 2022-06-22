@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-import { images } from '../../constants';
 import { Section } from '../../layout';
 import "./Feature.scss";
 import MotionWrap from '../../layout/MotionWrap';
@@ -73,4 +71,4 @@ const Skill = () => {
     );
 }
 
-export default Section(MotionWrap(Skill, "app__skills"), "skills", "app__whitebg");
+export default Section(MotionWrap(Skill, "app__skills"), "features", "app__whitebg");

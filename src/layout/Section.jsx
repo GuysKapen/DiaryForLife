@@ -3,10 +3,10 @@ import { NavigationDots, SocialMedia } from "../components"
 
 const Section = (Element, idName, className) => {
     return class WithData extends Component {
-
         render() {
+            const id = idName ?? this.props.idName
             return (
-                <div id={idName} className={`app__container ${className}`}>
+                <div id={id} className={`app__container ${className}`}>
                     <SocialMedia />
                     <div className='app__wrapper app__flex'>
                         <Element {...this.props} />
@@ -17,7 +17,7 @@ const Section = (Element, idName, className) => {
                         </div>
 
                     </div>
-                    <NavigationDots active={idName} />
+                    <NavigationDots active={id} />
                 </div>)
         }
 

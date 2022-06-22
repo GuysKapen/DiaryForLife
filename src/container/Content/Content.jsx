@@ -67,4 +67,4 @@ const Content = ({ title, description, image, flip = false, circles = null, btnC
     );
 }
 
-export default Section(Content, "content");
+export default Section(Content);
