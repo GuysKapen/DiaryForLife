@@ -10,6 +10,7 @@ import App from './App'
 import './index.css'
 import Home from './routes/Home';
 import Policy from './routes/Policy';
+import Term from './routes/Term';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/' element={<App />} >
         <Route path='/' element={<Home />} />
         <Route path='/policy' element={<Policy />} />
+        <Route path='/term' element={<Term />} />
       </Route>
     </Routes>
   </BrowserRouter>
