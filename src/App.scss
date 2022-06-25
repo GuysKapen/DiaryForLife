@@ -196,6 +196,10 @@
 #privacy-policy {
   color: rgb(75 85 99);
 
+  div > a {
+    display: block;
+  }
+
   h2 {
     font-size: 1.5rem;
     font-weight: 900;
@@ -230,7 +234,6 @@
   }
 
   a {
-    display: block;
     padding: 0.5rem 0;
     color: rgb(79 70 229);
     transition: all;

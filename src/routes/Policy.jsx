@@ -1,4 +1,4 @@
-import { Navbar } from "./../components";
+import PlayButton from "../components/PlayButton"
 
 const categoriesInfos = [
   {
@@ -87,19 +87,8 @@ function Policy() {
               </span>
             </div>
             <p className='text-gray-600 p-text text-lg mx-8'>Download Omori free tody and enjoy writing your diaries, keep track of your moments, events and mood</p>
-            <div className="flex w-48 h-14 flex-shrink-0 bg-black text-white rounded-lg items-center justify-center mx-auto">
-              <div className="mr-3">
-                <svg viewBox="30 336.7 120.9 129.2" width="30">
-                  <path fill="#FFD400" d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z" />
-                  <path fill="#FF3333" d="M99.1,401.1l-64.2,64.7c1.5,0.2,3.2-0.2,5.2-1.3  c4.2-2.3,48.8-26.7,79.1-43.3L99.1,401.1L99.1,401.1z" />
-                  <path fill="#48FF48" d="M99.1,401.1l20.1-20.2c0,0-74.6-40.7-79.1-43.1  c-1.7-1-3.6-1.3-5.3-1L99.1,401.1z" />
-                  <path fill="#3BCCFF" d="M99.1,401.1l-64.3-64.3c-2.6,0.6-4.8,2.9-4.8,7.6  c0,7.5,0,107.5,0,113.8c0,4.3,1.7,7.4,4.9,7.7L99.1,401.1z" />
-                </svg>
-              </div>
-              <div>
-                <div className="text-xs">GET IT ON</div>
-                <div className="text-xl font-semibold font-sans -mt-1">Google Play</div>
-              </div>
+            <div className="w-48 flex-shrink-0 mx-auto">
+              <PlayButton />
             </div>
           </div>
         </div>
@@ -123,27 +112,26 @@ function Policy() {
 
         <div>
           <h3>Summary Of Key Points</h3>
-          <p className='text-gray-800 font-semibold text-base'>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click here to go directly to our table of contents.</p>
-          <p><span>What personal information do we process?</span>When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Omori and the Services, the choices you make, and the products and features you use. Click  here to learn more.</p>
+          <p className='text-gray-800 font-semibold text-base'>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click <a href="#toc">here</a> to go directly to our table of contents.</p>
+          <p><span>What personal information do we process?</span>When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Omori and the Services, the choices you make, and the products and features you use. Click  <a href="#personal-info">here</a> to learn more.</p>
           <p><span>Do we process any sensitive personal information?</span>We do not process sensitive personal information.</p>
           <p><span>Do we receive any information from third parties?</span>We do not receive any information from third parties.</p>
-          <p><span>How do we process your information?</span>We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Click here to learn more.</p>
-          <p><span>In what situations and with which types of parties do we share personal information?</span>We may share information in specific situations and with specific categories of third parties. Click here to learn more.</p>
-          <p><span>How do we keep your information safe?</span>We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Click here to learn more.</p>
-          <p><span>What are your rights?</span>Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Click here to learn more.</p>
+          <p><span>How do we process your information?</span>We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Click <a href="#info-use">here</a> to learn more.</p>
+          <p><span>In what situations and with which types of parties do we share personal information?</span>We may share information in specific situations and with specific categories of third parties. Click <a href="#who-share">here</a> to learn more.</p>
+          <p><span>How do we keep your information safe?</span>We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Click <a href="#info-safe">here</a> to learn more.</p>
+          <p><span>What are your rights?</span>Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Click <a href="#info-safe"></a> to learn more.</p>
           <p><span>How do you exercise your rights?</span>The easiest way to exercise your rights is by filling out our data subject request form available here , or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws. </p>
-          <p>Want to learn more about what Omori does with any information we collect? Click  here to review the notice in full.</p>
+          <p>Want to learn more about what Omori does with any information we collect? Click  <a href="#toc">here</a> to review the notice in full.</p>
         </div>
 
-        <div>
+        <div id="toc">
           <h2>Table Of Contens</h2>
-
           <a href="#info-collect">1. What Information Do We Collect?</a>
           <a href="#info-use">2. How Do We Process Your Information?</a>
           <a href="#legal-bases">3. What Legal Bases Do We Rely On To Process Your Personal Information?</a>
           <a href="#who-share">4. When And With Whom Do We Share Your Personal Information?</a>
           <a href="#how-long">5. How Long Do We Keep Your Information?</a>
-          <a href="#keep-safe">6. How Do We Keep Your Information Safe?</a>
+          <a href="#info-safe">6. How Do We Keep Your Information Safe?</a>
           <a href="#privacy-rights">7. What Are Your Privacy Rights?</a>
           <a href="#do-not-track">8. Controls For Do-Not-Track Features</a>
           <a href="#ca">9. Do California Residents Have Specific Privacy Rights?</a>
@@ -154,7 +142,7 @@ function Policy() {
 
         <div id="info-collect">
           <h2>1. What Information Do We Collect? </h2>
-          <p className='p-text-bold'>Personal information you disclose to us </p>
+          <p id="personal-info" className='p-text-bold'>Personal information you disclose to us </p>
           <p><span>In short: </span>We collect personal information that you provide to us.</p>
           <p>We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.</p>
           <p><span>Sensitive Information.</span>We do not process sensitive information</p>
@@ -196,7 +184,7 @@ function Policy() {
           <p> The General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information: </p>
           <ul>
             <li>
-              <span>Consent.</span>We may process your information if you have given us permission (i.e. , consent) to use your personal information for a specific purpose. You can withdraw your consent at any time. Click here to learn more.
+              <span>Consent.</span>We may process your information if you have given us permission (i.e. , consent) to use your personal information for a specific purpose. You can withdraw your consent at any time. Click <a href="#withdraw-consent">here</a> to learn more.
             </li>
             <li>
               <span>Legal Obligations.</span>We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.
@@ -206,7 +194,7 @@ function Policy() {
             </li>
           </ul>
           <p className='p-text-bold underline'>If you are located in Canada, this section applies to you.</p>
-          <p> We may process your information if you have given us specific permission (i.e. , express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e. , implied consent). You can withdraw your consent at any time. Click here to learn more. </p>
+          <p> We may process your information if you have given us specific permission (i.e. , express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e. , implied consent). You can withdraw your consent at any time. Click <a href="#withdraw-consent"></a> to learn more. </p>
           <p> In some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example: </p>
           <ul>
             <li>
@@ -270,7 +258,7 @@ function Policy() {
           <p> When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible. </p>
         </div>
 
-        <div id="keep-safe">
+        <div id="info-safe">
           <h2> 6. How Do We Keep Your Information Safe? </h2>
           <p><span>In Short: </span>We aim to protect your personal information through a system of organizational and technical security measures.</p>
           <p> We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment. </p>
@@ -281,9 +269,9 @@ function Policy() {
           <p><span>In Short: </span>In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada , you have rights that allow you greater access to and control over your personal information.  You may review, change, or terminate your account at any time.</p>
           <p> In some regions (like the EEA, UK, and Canada ), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section " HOW CAN YOU CONTACT US ABOUT THIS NOTICE? " below. </p>
           <p> We will consider and act upon any request in accordance with applicable data protection laws. </p>
-          <p> If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm. </p>
-          <p> If you are located in Switzerland, the contact details for the data protection authorities are available here: https://www.edoeb.admin.ch/edoeb/en/home.html. </p>
-          <p><span>Withdrawing your consent: </span>If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section " HOW CAN YOU CONTACT US ABOUT THIS NOTICE? " below .
+          <p> If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: <a href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.">https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.</a>  </p>
+          <p> If you are located in Switzerland, the contact details for the data protection authorities are available here: <a href="https://www.edoeb.admin.ch/edoeb/en/home.html.">https://www.edoeb.admin.ch/edoeb/en/home.html.</a> </p>
+          <p id="withdraw-consent"><span>Withdrawing your consent: </span>If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section " HOW CAN YOU CONTACT US ABOUT THIS NOTICE? " below .
           </p>
           <p> However, please note that this will not affect the lawfulness of the processing before its withdrawal, nor when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent. </p>
         </div>
