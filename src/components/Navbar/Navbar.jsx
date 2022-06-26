@@ -9,7 +9,7 @@ const Navbar = () => {
     return (<>
         <nav className='app__navbar'>
             <div className='app__logo'>
-                <h1 className='text-5xl text-gray-800 font-brush-script'>Omori</h1>
+                <h1 className='text-5xl text-gray-800 font-brush-script'>Omoir</h1>
             </div>
             <div className='flex w-1/2'>
                 <ul className='app__navbar-links'>
@@ -46,9 +46,9 @@ const Navbar = () => {
                 )}
             </div>
         </nav>
-        <div id='scroll-nav' className='app__navbar justify-between opacity-0 fixed top-0 -translate-y-64 transition-all duration-300'>
+        <div id='scroll-nav' className='app__navbar justify-between opacity-0 fixed top-0 -translate-y-64 transition-all duration-300 z-50'>
             <div className='app__logo'>
-                <h1 className='text-5xl text-gray-800 font-brush-script'>Omori</h1>
+                <h1 className='text-5xl text-gray-800 font-brush-script'>Omoir</h1>
             </div>
             <PlayButton />
         </div>

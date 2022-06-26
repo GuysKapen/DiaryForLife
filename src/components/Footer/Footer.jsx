@@ -6,7 +6,7 @@ const Footer = () => {
 
       <div className='flex justify-between ml-4'>
         <div>
-          <h1 className='text-4xl text-gray-800 font-brush-script'>Omori</h1>
+          <h1 className='text-4xl text-gray-800 font-brush-script'>Omoir</h1>
         </div>
         <div>
           <ul className='app__navbar-links flex justify-end'>
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='mt-4'>
-        <p className="p-text text-right mx-4">© 2021 Omori Diary Team</p>
+        <p className="p-text text-right mx-4">© 2021 Omoir Diary Team</p>
       </div>
     </section>
   );

@@ -68,7 +68,7 @@ function Policy() {
             <img src="" alt="" />
           </div>
           <div>
-            <h3 className='font-bold text-base'>The Omori Team</h3>
+            <h3 className='font-bold text-base'>The Omoir Team</h3>
             <p className='text-gray-600 text-sm'>June 20, 2022</p>
           </div>
         </div>
@@ -86,7 +86,7 @@ function Policy() {
                 </span>
               </span>
             </div>
-            <p className='text-gray-600 p-text text-lg mx-8'>Download Omori free tody and enjoy writing your diaries, keep track of your moments, events and mood</p>
+            <p className='text-gray-600 p-text text-lg mx-8'>Download Omoir free tody and enjoy writing your diaries, keep track of your moments, events and mood</p>
             <div className="w-48 flex-shrink-0 mx-auto">
               <PlayButton />
             </div>
@@ -99,10 +99,10 @@ function Policy() {
         <h1 className='p-text text-5xl font-black text-gray-800'>Privacy Notice</h1>
         <p className='text-gray-600 font-semibold'>Last updated June 20, 2022</p>
         <p>
-          This privacy notice for Omori <span> ("Company ," "we," "us," or "our" )</span>, describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("<span>Services</span>"), such as when you:</p>
+          This privacy notice for Omoir <span> ("Company ," "we," "us," or "our" )</span>, describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("<span>Services</span>"), such as when you:</p>
         <ul>
           <li>
-            Download and use our mobile application (Omori) , or any other application of ours that links to this privacy notice
+            Download and use our mobile application (Omoir) , or any other application of ours that links to this privacy notice
           </li>
           <li>
             Engage with us in other related ways, including any sales, marketing, or events
@@ -113,7 +113,7 @@ function Policy() {
         <div>
           <h3>Summary Of Key Points</h3>
           <p className='text-gray-800 font-semibold text-base'>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click <a href="#toc">here</a> to go directly to our table of contents.</p>
-          <p><span>What personal information do we process?</span>When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Omori and the Services, the choices you make, and the products and features you use. Click  <a href="#personal-info">here</a> to learn more.</p>
+          <p><span>What personal information do we process?</span>When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Omoir and the Services, the choices you make, and the products and features you use. Click  <a href="#personal-info">here</a> to learn more.</p>
           <p><span>Do we process any sensitive personal information?</span>We do not process sensitive personal information.</p>
           <p><span>Do we receive any information from third parties?</span>We do not receive any information from third parties.</p>
           <p><span>How do we process your information?</span>We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Click <a href="#info-use">here</a> to learn more.</p>
@@ -121,7 +121,7 @@ function Policy() {
           <p><span>How do we keep your information safe?</span>We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Click <a href="#info-safe">here</a> to learn more.</p>
           <p><span>What are your rights?</span>Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Click <a href="#info-safe"></a> to learn more.</p>
           <p><span>How do you exercise your rights?</span>The easiest way to exercise your rights is by filling out our data subject request form available here , or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws. </p>
-          <p>Want to learn more about what Omori does with any information we collect? Click  <a href="#toc">here</a> to review the notice in full.</p>
+          <p>Want to learn more about what Omoir does with any information we collect? Click  <a href="#toc">here</a> to review the notice in full.</p>
         </div>
 
         <div id="toc">
@@ -366,8 +366,8 @@ function Policy() {
           <p className='p-text-bold'> Will your information be shared with anyone else? </p>
           <p> We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for-profit entity that processes the information on our behalf. </p>
           <p> We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be "selling" of your personal information. </p>
-          <p className='p-text-bold'> Omori has not sold any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months.</p>
-          <p>Omori  has disclosed the following categories of personal information to third parties for a business or commercial purpose in the preceding twelve (12) months: </p>
+          <p className='p-text-bold'> Omoir has not sold any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months.</p>
+          <p>Omoir  has disclosed the following categories of personal information to third parties for a business or commercial purpose in the preceding twelve (12) months: </p>
           <ul>
             <li>
               Category B. Personal information, as defined in the California Customer Records law, such as your name, contact information, education, employment, employment history, and financial information.
@@ -435,8 +435,8 @@ function Policy() {
         <div id="contact">
           <h2> 11. How Can You Contact Us About This Notice? </h2>
           <p> If you have questions or comments about this notice, you may email us at guysdeveloperrobot@gmail.com  or by post to: </p>
-          <p> Omori </p>
-          <p>The Omori Team</p>
+          <p> Omoir </p>
+          <p>The Omoir Team</p>
         </div>
 
         <div id="request">
