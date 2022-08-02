@@ -43,7 +43,7 @@ const Header = () => {
             <motion.div whileInView={{ opacity: [0, 1] }}
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className='app__header-img'>
-                <div className='w-full absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 px-8 z-10'>
+                <div className='w-full invisible lg:visible absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 px-8 z-10'>
                     <h1 className='text-6xl text-center font-black'>The Omoir App</h1>
                     <p className='mt-8 w-1/2 text-2xl text-center mx-auto'>Want to keep track your events. Try Omoir to help you write for enjoying your moments</p>
                     <div className='mx-auto mt-8 w-48'>

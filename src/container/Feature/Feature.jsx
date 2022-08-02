@@ -49,12 +49,12 @@ const Skill = () => {
             <h2 className='head-text'>Features</h2>
 
             <div className=''>
-                <motion.div className='flex items-start'>
+                <motion.div className='flex flex-col items-center md:flex-row md:items-start'>
                     {skills.map((skill) => (
                         <motion.div
                             whileInView={{ opacity: [0, 1] }}
                             transition={{ duration: 0.5 }}
-                            className="app__skills-item app__flex w-1/3"
+                            className="app__skills-item app__flex w-full"
                             key={skill.name}>
                             {skill.icon}
                             <p className='p-text mt-4 text-center text-3xl font-bold text-gray-800 whitespace-pre-line'>{skill.name}</p>

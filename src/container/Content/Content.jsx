@@ -16,12 +16,12 @@ const Content = ({ title, description, image, flip = false, circles = null, btnC
         }
     };
     return (
-        <div className={`app__header flex ${flip ? "flex-row-reverse" : ""}`}>
+        <div className={`app__header flex ${flip ? "lg:flex-row-reverse flex-col-reverse" : "lg:flex-row flex-col"}`}>
             <motion.div whileInView={{ opacity: [0, 1] }}
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
-                className='app__header-img w-5/12'>
+                className='app__header-img w-full lg:w-5/12'>
                 <div className='w-full px-8 z-10'>
-                    <h1 className={`text-6xl font-black ${flip ? "text-right" : ""}`}>{title}</h1>
+                    <h1 className={`text-2xl lg:text-6xl font-black ${flip ? "text-right" : ""}`}>{title}</h1>
                     <p className={`mt-8 text-base p-text ${flip ? "text-right" : ""}`}>{description}</p>
                     <a href={"https://play.google.com/store/apps/details?id=com.guysrobot.diaryforlife"} >
                         <div className={`flex w-48 h-14 text-sm font-black cursor-pointer bg-indigo-600 hover:bg-indigo-800 text-white rounded-lg items-center justify-center mt-16 ${flip ? "ml-auto" : ""} ${btnClasses}`}>
@@ -31,15 +31,15 @@ const Content = ({ title, description, image, flip = false, circles = null, btnC
                 </div>
                 <motion.img whileInView={{ scale: [0, 1] }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
-                    className='overlay_circle top-0 absolute -translate-x-1/2 -translate-y-1/2 left-1/2'
+                    className='overlay_circle top-0 absolute -translate-x-1/2 -translate-y-1/2 left-1/2 w-full'
                     src={images.circle}
                     alt="profile_circle" />
 
             </motion.div>
 
-            <motion.div className='w-6/12 flex-shrink-0 relative'>
+            <motion.div className='w-full lg:w-6/12 flex-shrink-0 relative'>
 
-                <div className='h-96 z-50 relative'>
+                <div className='h-96 z-40 relative'>
                     <motion.img whileInView={{ scale: [0, 1] }}
                         transition={{ duration: 0.5, ease: "easeInOut" }}
                         className='h-full mx-auto z-50'

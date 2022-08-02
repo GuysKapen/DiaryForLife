@@ -9,7 +9,7 @@ const Footer = () => {
           <h1 className='text-4xl text-gray-800 font-brush-script'>Omoir</h1>
         </div>
         <div>
-          <ul className='app__navbar-links flex justify-end'>
+          <ul className='app__navbar-links flex justify-end flex-wrap'>
               <li className='app__flex p-text' key={`link-policy`}>
                 <div />
                 <a href={`/policy`}>Privacy Policy</a>
